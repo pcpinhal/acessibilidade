@@ -17,7 +17,18 @@ function fonte(e){
     elemento.css("fontSize", fonte)    
 }
 function contraste(e){
-    // document.querySelector('#teste').style.fonte = 100;
-    //const address = document.querySelector("#teste");
-    //address.style.color = "red";
+    var body = $("body");
+    var elemento = $(".acessibilidade");
+    var fonte = parseInt(elemento.css('font-size'));
+
+    if(e == "n"){
+        body.css("color", "#FFF");
+        body.css("background", "#000");
+        //alert("noite");
+    }
+    if(e == "d"){
+        body.css("color", "#000");
+        body.css("background", "#FFF");
+        //alert("dia");
+    }
 }
