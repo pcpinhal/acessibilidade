@@ -3,3 +3,9 @@ git add . - adiciona no brush os arquivos modificados
 git status - verifica os arquivos que foram modificados
 git commit -m "alterou o estilo do botao" - comentar sobre o que alterou
 git push - enviar os arquivos para o servidor
+
+git branch -M master main - usar quando o branch for master e for trocar para o padrao main
+
+
+git add . & git commit -m "Fiz tal coisa" & git push
+//Usa desta forma acima com um unico comando para fazer enviar as modificaçções de 1 vez so . & para juntar comandos
