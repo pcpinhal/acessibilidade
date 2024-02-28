@@ -1,3 +1,4 @@
+//Minhas funções
 function fonte(e){
     var elemento = $(".acessibilidade");
     var fonte = parseInt(elemento.css('font-size'));
