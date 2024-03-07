@@ -33,3 +33,22 @@ function contraste(e){
         //alert("dia");
     }
 }
+function cor(x){
+    var cor1 = $(".cor1");
+    var cor2 = $(".cor2");
+    var cor3 = $(".cor3");    
+
+    if(x == "1"){
+        cor1.css("color", "blue");       
+        //alert("noite");
+    }
+    if(x == "2"){
+        cor2.css("color", "yellow");       
+        //alert("noite");
+    }
+    if(x == "3"){
+        cor3.css("color", "red");       
+        //alert("noite");
+    }
+    
+}
